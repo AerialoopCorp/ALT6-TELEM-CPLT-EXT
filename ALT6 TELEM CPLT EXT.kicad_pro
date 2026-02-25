@@ -244,7 +244,24 @@
     "equivalence_files": []
   },
   "erc": {
-    "erc_exclusions": [],
+    "erc_exclusions": [
+      [
+        "pin_not_connected|914400|698500|5d545234-0f3c-400f-a345-1e2ce2362936|00000000-0000-0000-0000-000000000000|/0757714a-2ed0-4f92-8955-8fe0c42aa0f1|/0757714a-2ed0-4f92-8955-8fe0c42aa0f1|",
+        ""
+      ],
+      [
+        "pin_not_connected|914400|723900|742da375-ea17-4902-838f-21857d244401|00000000-0000-0000-0000-000000000000|/0757714a-2ed0-4f92-8955-8fe0c42aa0f1|/0757714a-2ed0-4f92-8955-8fe0c42aa0f1|",
+        ""
+      ],
+      [
+        "pin_not_connected|914400|800100|ac475440-0eae-4a19-bbad-0ec379675ba4|00000000-0000-0000-0000-000000000000|/0757714a-2ed0-4f92-8955-8fe0c42aa0f1|/0757714a-2ed0-4f92-8955-8fe0c42aa0f1|",
+        ""
+      ],
+      [
+        "power_pin_not_driven|1219200|723900|97c75fd3-356f-49d7-81b2-1c0eae09953f|00000000-0000-0000-0000-000000000000|/0757714a-2ed0-4f92-8955-8fe0c42aa0f1|/0757714a-2ed0-4f92-8955-8fe0c42aa0f1|",
+        "it's GND"
+      ]
+    ],
     "meta": {
       "version": 0
     },
@@ -446,7 +463,7 @@
       "net_not_bus_member": "warning",
       "no_connect_connected": "warning",
       "no_connect_dangling": "warning",
-      "pin_not_connected": "error",
+      "pin_not_connected": "warning",
       "pin_not_driven": "error",
       "pin_to_pin": "warning",
       "power_pin_not_driven": "error",
@@ -491,6 +508,20 @@
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.2,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.2,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "color",
+        "pcb_color": "rgb(2, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.2,
+        "via_diameter": 0.6,
+        "via_drill": 0.3
       }
     ],
     "meta": {
@@ -505,8 +536,8 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "./",
-      "pos_files": "",
+      "plot": "ALT6 TELEM CPLT EXT FF/",
+      "pos_files": "ALT6 TELEM CPLT EXT FF/",
       "specctra_dsn": "",
       "step": "ALT6 TELEM CPLT EXT.step",
       "svg": "",
@@ -615,6 +646,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "./",
     "space_save_all_events": true,

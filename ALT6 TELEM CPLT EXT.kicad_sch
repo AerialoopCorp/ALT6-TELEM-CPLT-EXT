@@ -5,52 +5,42 @@
 	(uuid "0757714a-2ed0-4f92-8955-8fe0c42aa0f1")
 	(paper "A4")
 	(lib_symbols
-		(symbol "10TPE220ML:10TPE220ML"
+		(symbol "10SVPE220M:10SVPE220M"
 			(pin_names
-				(hide yes)
+				(offset 1.016)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "C"
-				(at 8.89 6.35 0)
+				(at -2.54 3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Value" "10TPE220ML"
-				(at 8.89 3.81 0)
+			(property "Value" "10SVPE220M"
+				(at -2.54 -5.08 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify left bottom)
 				)
 			)
-			(property "Footprint" "16TDC150MYF"
-				(at 8.89 -96.19 0)
+			(property "Footprint" "10SVPE220M:CAP_10SVPE220M"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AAA8000/AAA8000C36.pdf"
-				(at 8.89 -196.19 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left top)
-					(hide yes)
-				)
-			)
-			(property "Description" "Panasonic 220uF SMD Solid Polymer Tantalum Capacitor, 10 V dc +/-20%, POSCAP Series"
+			(property "Datasheet" ""
 				(at 0 0 0)
 				(effects
 					(font
@@ -59,110 +49,72 @@
 					(hide yes)
 				)
 			)
-			(property "Height" ""
-				(at 8.89 -396.19 0)
+			(property "Description" ""
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
 					(hide yes)
 				)
 			)
-			(property "Mouser Part Number" "667-10TPE220ML"
-				(at 8.89 -496.19 0)
+			(property "PARTREV" "28-Jun-19"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/10TPE220ML?qs=OE1iw1LrrPE6JSiJ7pp4ww%3D%3D"
-				(at 8.89 -596.19 0)
+			(property "MANUFACTURER" "Panasonic"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Name" "Panasonic"
-				(at 8.89 -696.19 0)
+			(property "MAXIMUM_PACKAGE_HEIGHT" "5.9mm"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Manufacturer_Part_Number" "10TPE220ML"
-				(at 8.89 -796.19 0)
+			(property "STANDARD" "Manufacturer Recommendations"
+				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify left top)
+					(justify bottom)
 					(hide yes)
 				)
 			)
-			(symbol "10TPE220ML_1_1"
-				(polyline
-					(pts
-						(xy 2.54 0) (xy 5.08 0)
-					)
+			(symbol "10SVPE220M_0_0"
+				(rectangle
+					(start -1.173 -1.532)
+					(end -0.284 -1.405)
 					(stroke
-						(width 0.254)
+						(width 0.1)
 						(type default)
 					)
 					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.064 1.778) (xy 4.064 0.762)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 4.572 1.27) (xy 3.556 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(rectangle
-					(start 5.08 2.54)
-					(end 5.842 -2.54)
+					(start -0.792 -1.913)
+					(end -0.665 -1.024)
 					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type background)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 2.54) (xy 7.62 -2.54) (xy 6.858 -2.54) (xy 6.858 2.54) (xy 7.62 2.54)
-					)
-					(stroke
-						(width 0.254)
+						(width 0.1)
 						(type default)
 					)
 					(fill
@@ -171,7 +123,19 @@
 				)
 				(polyline
 					(pts
-						(xy 7.62 0) (xy 10.16 0)
+						(xy 0 0) (xy 0.508 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.508 2.54) (xy 0.508 0)
 					)
 					(stroke
 						(width 0.254)
@@ -181,38 +145,74 @@
 						(type none)
 					)
 				)
+				(polyline
+					(pts
+						(xy 0.508 0) (xy 0.508 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(arc
+					(start 2.286 -2.54)
+					(mid 1.4851 0)
+					(end 2.286 2.54)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
 				(pin passive line
-					(at 0 0 0)
+					(at -2.54 0 0)
 					(length 2.54)
-					(name "+"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 				)
 				(pin passive line
-					(at 12.7 0 180)
+					(at 5.08 0 180)
 					(length 2.54)
-					(name "-"
+					(name "~"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.27 1.27)
+								(size 1.016 1.016)
 							)
 						)
 					)
@@ -220,7 +220,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "2200301021:2200301021"
+		(symbol "2200291025:2200291025"
 			(pin_names
 				(offset 0.254)
 			)
@@ -235,7 +235,7 @@
 					)
 				)
 			)
-			(property "Value" "2200301021"
+			(property "Value" "2200291025"
 				(at 0 0 0)
 				(effects
 					(font
@@ -243,7 +243,7 @@
 					)
 				)
 			)
-			(property "Footprint" "CONN_2200300000-SD_02_MOL"
+			(property "Footprint" "CONN_2200290000-SD_02_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -253,7 +253,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200301021?display=pdf"
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200291025?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -280,7 +280,7 @@
 					)
 				)
 			)
-			(property "ki_keywords" "2200301021"
+			(property "ki_keywords" "2200291025"
 				(at 0 0 0)
 				(effects
 					(font
@@ -289,7 +289,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "CONN_2200300000-SD_02_MOL"
+			(property "ki_fp_filters" "CONN_2200290000-SD_02_MOL"
 				(at 0 0 0)
 				(effects
 					(font
@@ -298,7 +298,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2200301021_1_1"
+			(symbol "2200291025_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -5.08)
@@ -456,7 +456,7 @@
 					)
 				)
 			)
-			(symbol "2200301021_1_2"
+			(symbol "2200291025_1_2"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -5.08)
@@ -616,46 +616,45 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "2200301031:2200301031"
+		(symbol "2200291035:2200291035"
 			(pin_names
-				(offset 1.016)
+				(offset 0.254)
 			)
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
 			(property "Reference" "J"
-				(at 4.1656 5.3086 0)
+				(at 8.89 6.35 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Value" "2200301031"
-				(at 4.8006 -3.5814 0)
+			(property "Value" "2200291035"
+				(at 0 0 0)
 				(effects
 					(font
-						(size 1.27 1.27)
+						(size 1.524 1.524)
 					)
-					(justify left bottom)
 				)
 			)
-			(property "Footprint" "2200301031:CONN_2200300000-SD_03_MOL"
+			(property "Footprint" "CONN_2200290000-SD_03_MOL"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Datasheet" ""
+			(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200291035?display=pdf"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
+						(italic yes)
 					)
 					(hide yes)
 				)
@@ -669,123 +668,39 @@
 					(hide yes)
 				)
 			)
-			(property "MF" "Molex"
+			(property "ki_locked" ""
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
-					(hide yes)
 				)
 			)
-			(property "Description_1" "MICRO-ONE 2.0 RA ASSY THRHOLE 3C"
+			(property "ki_keywords" "2200291035"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Package" "None"
+			(property "ki_fp_filters" "CONN_2200290000-SD_03_MOL"
 				(at 0 0 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
-					(justify bottom)
 					(hide yes)
 				)
 			)
-			(property "Price" "None"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Check_prices" "https://www.snapeda.com/parts/2200301031/Molex/view-part/?ref=eda"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Availability" "In Stock"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "SnapEDA_Link" "https://www.snapeda.com/parts/2200301031/Molex/view-part/?ref=snap"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MP" "2200301031"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=16816160&manufacturer=Molex&part_name=2200301031&search_term=220030-1031"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MFR_NAME" "Molex Connector Corporation"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(property "MANUFACTURER_PART_NUMBER" "2200301031"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify bottom)
-					(hide yes)
-				)
-			)
-			(symbol "2200301031_0_0"
+			(symbol "2200291035_1_1"
 				(polyline
 					(pts
 						(xy 5.08 2.54) (xy 5.08 -7.62)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -797,7 +712,7 @@
 						(xy 5.08 -7.62) (xy 12.7 -7.62)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -809,7 +724,7 @@
 						(xy 10.16 0) (xy 5.08 0)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -818,10 +733,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 8.89 0.8382)
+						(xy 10.16 0) (xy 8.89 0.8467)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -830,10 +745,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 0) (xy 8.89 -0.8382)
+						(xy 10.16 0) (xy 8.89 -0.8467)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -845,7 +760,7 @@
 						(xy 10.16 -2.54) (xy 5.08 -2.54)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -854,10 +769,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.7018)
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -866,10 +781,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3782)
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -881,7 +796,7 @@
 						(xy 10.16 -5.08) (xy 5.08 -5.08)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -890,10 +805,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2418)
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -902,10 +817,10 @@
 				)
 				(polyline
 					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9182)
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -917,7 +832,7 @@
 						(xy 12.7 2.54) (xy 5.08 2.54)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
@@ -929,63 +844,275 @@
 						(xy 12.7 -7.62) (xy 12.7 2.54)
 					)
 					(stroke
-						(width 0.1524)
+						(width 0.127)
 						(type default)
 					)
 					(fill
 						(type none)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 0 0)
 					(length 5.08)
-					(name "~"
+					(name "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "1"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -2.54 0)
 					(length 5.08)
-					(name "~"
+					(name "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "2"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 				)
-				(pin passive line
+				(pin unspecified line
 					(at 0 -5.08 0)
 					(length 5.08)
-					(name "~"
+					(name "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
 							)
 						)
 					)
 					(number "3"
 						(effects
 							(font
-								(size 1.016 1.016)
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "2200291035_1_2"
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
 							)
 						)
 					)
@@ -3525,6 +3652,22 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "5.25-5.3V IN"
+		(exclude_from_sim no)
+		(at 160.782 32.258 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "8a35b79b-dff9-427b-8e95-78d9893a1c48")
+	)
+	(junction
+		(at 175.26 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "083f01b9-e95a-4aad-b9b8-2d3b3f8eec58")
+	)
 	(junction
 		(at 148.59 111.76)
 		(diameter 0)
@@ -3542,12 +3685,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "490ac0a7-f3e2-49fe-84e8-7657f7331889")
-	)
-	(junction
-		(at 106.68 26.67)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "710f2fee-43d4-4f27-ba56-815ee7b33ccb")
 	)
 	(junction
 		(at 237.49 77.47)
@@ -3574,10 +3711,10 @@
 		(uuid "b781a8c2-112e-4383-bf9a-e9a2a99b152a")
 	)
 	(junction
-		(at 175.26 77.47)
+		(at 154.94 91.44)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "b9f3e125-ed85-4537-a06f-abe41fd54888")
+		(uuid "c5473fd5-b4a1-431c-988c-2896031f62be")
 	)
 	(junction
 		(at 234.95 152.4)
@@ -3592,10 +3729,26 @@
 		(uuid "ce49e6fc-1219-4e6c-8ee3-56e4e66cd20b")
 	)
 	(junction
+		(at 106.68 26.67)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc0fc5a9-ee88-485f-ae11-ea3694ad93ad")
+	)
+	(junction
 		(at 116.84 67.31)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f19868ad-9c52-47e9-968e-69da3d424b20")
+	)
+	(wire
+		(pts
+			(xy 165.1 33.02) (xy 199.39 33.02)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "035f63d0-f86f-4bb7-a7bf-864e12733ded")
 	)
 	(wire
 		(pts
@@ -3627,6 +3780,16 @@
 		)
 		(uuid "0a0173db-84d2-4404-bc8f-5e829e89b643")
 	)
+	(polyline
+		(pts
+			(xy 158.75 27.94) (xy 158.75 30.48)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0ab673cf-66d6-4df8-8d0f-f4789cd6a820")
+	)
 	(wire
 		(pts
 			(xy 90.17 48.26) (xy 90.17 41.91)
@@ -3639,16 +3802,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 77.47) (xy 175.26 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0fd1c6c6-84f2-44ca-8daf-c5923160459a")
-	)
-	(wire
-		(pts
 			(xy 116.84 105.41) (xy 130.81 105.41)
 		)
 		(stroke
@@ -3656,6 +3809,16 @@
 			(type default)
 		)
 		(uuid "14e88bc3-57af-4952-a2c0-f52cf7bc7de6")
+	)
+	(wire
+		(pts
+			(xy 151.13 31.75) (xy 151.13 41.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "15d8dab6-967f-4441-951d-97bcdbb3a48a")
 	)
 	(wire
 		(pts
@@ -3709,16 +3872,6 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 67.31) (xy 87.63 67.31)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2cc02844-1a61-4ae9-9671-79171cabae8a")
-	)
-	(wire
-		(pts
 			(xy 118.11 39.37) (xy 118.11 41.91)
 		)
 		(stroke
@@ -3739,6 +3892,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 77.47) (xy 175.26 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d6741f5-9f79-4ef4-8401-ecbdb116a090")
+	)
+	(wire
+		(pts
 			(xy 175.26 152.4) (xy 175.26 132.08)
 		)
 		(stroke
@@ -3756,26 +3919,6 @@
 			(type default)
 		)
 		(uuid "33f2edf9-a462-4de5-a178-a70d7a83337c")
-	)
-	(wire
-		(pts
-			(xy 151.13 31.75) (xy 151.13 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "35d04c8b-559f-4ab5-8076-473270b03c65")
-	)
-	(wire
-		(pts
-			(xy 173.99 33.02) (xy 179.07 33.02)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "36d8495c-6ab6-4e86-98de-d7296f3ce8e4")
 	)
 	(wire
 		(pts
@@ -3859,13 +4002,13 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 66.04) (xy 186.69 54.61)
+			(xy 116.84 72.39) (xy 121.92 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "450a2c68-7eb8-42d3-a2e0-ae1f35bb1350")
+		(uuid "45fee74d-11b3-4256-9d41-3cdf5960c590")
 	)
 	(wire
 		(pts
@@ -3909,16 +4052,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 66.04) (xy 186.69 66.04)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4f94b707-c79e-41b2-b842-aeae6a9f55ce")
-	)
-	(wire
-		(pts
 			(xy 134.62 88.9) (xy 134.62 120.65)
 		)
 		(stroke
@@ -3946,6 +4079,16 @@
 			(type default)
 		)
 		(uuid "576312ec-5745-4138-ab74-8b6a99f46f7d")
+	)
+	(polyline
+		(pts
+			(xy 153.67 27.94) (xy 158.75 27.94)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5915cac2-3290-44ef-bc64-cc0bd30298c9")
 	)
 	(wire
 		(pts
@@ -3979,23 +4122,43 @@
 	)
 	(wire
 		(pts
-			(xy 186.69 54.61) (xy 199.39 54.61)
+			(xy 153.67 54.61) (xy 168.91 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "63e86bdb-ff47-43f1-9c18-e1c324cc90b7")
+		(uuid "644c8f69-83cc-40b7-b03a-877c37a706fc")
 	)
 	(wire
 		(pts
-			(xy 172.72 88.9) (xy 134.62 88.9)
+			(xy 106.68 26.67) (xy 118.11 26.67)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65831c81-b640-4d6c-a651-e16c200d8a0e")
+	)
+	(wire
+		(pts
+			(xy 172.72 88.9) (xy 157.48 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "686c3a73-8e41-464d-af30-15a722dd0f61")
+	)
+	(wire
+		(pts
+			(xy 165.1 33.02) (xy 165.1 63.5)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a8d65cc-a732-4f95-a890-6385aa2c7d45")
 	)
 	(wire
 		(pts
@@ -4036,16 +4199,6 @@
 			(type default)
 		)
 		(uuid "712f41f2-a092-4dd5-b985-925ea752e091")
-	)
-	(wire
-		(pts
-			(xy 165.1 53.34) (xy 165.1 63.5)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "71e3cfbb-1345-4fed-87ae-6dd852eaeb8b")
 	)
 	(wire
 		(pts
@@ -4129,16 +4282,6 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 67.31) (xy 87.63 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8888b42a-bb06-4a9e-8c1e-de89cca05c68")
-	)
-	(wire
-		(pts
 			(xy 148.59 166.37) (xy 148.59 125.73)
 		)
 		(stroke
@@ -4146,16 +4289,6 @@
 			(type default)
 		)
 		(uuid "88c45e24-962f-43e0-9de0-58ee2fc3f809")
-	)
-	(wire
-		(pts
-			(xy 173.99 33.02) (xy 173.99 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8a00ca73-442d-4514-871c-ff686ff0c17e")
 	)
 	(wire
 		(pts
@@ -4199,17 +4332,7 @@
 	)
 	(wire
 		(pts
-			(xy 151.13 50.8) (xy 142.24 50.8)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8e358f47-5edb-420b-9cc0-e6ff4394f324")
-	)
-	(wire
-		(pts
-			(xy 130.81 83.82) (xy 132.08 83.82)
+			(xy 130.81 83.82) (xy 152.4 83.82)
 		)
 		(stroke
 			(width 0)
@@ -4219,13 +4342,23 @@
 	)
 	(wire
 		(pts
-			(xy 87.63 59.69) (xy 167.64 59.69)
+			(xy 189.23 54.61) (xy 199.39 54.61)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "9ee943c8-c85e-421d-88c8-b320a1693f6b")
+		(uuid "93650879-f9eb-4b82-a034-f2ebc8a59de4")
+	)
+	(wire
+		(pts
+			(xy 106.68 26.67) (xy 106.68 31.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "983e37f7-12ee-491b-8624-be3d26c85e95")
 	)
 	(wire
 		(pts
@@ -4249,7 +4382,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 129.54) (xy 161.29 129.54)
+			(xy 199.39 129.54) (xy 185.42 129.54)
 		)
 		(stroke
 			(width 0)
@@ -4289,16 +4422,6 @@
 	)
 	(wire
 		(pts
-			(xy 167.64 59.69) (xy 167.64 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "abd88266-115d-4dac-b732-b7dd6b6ddad9")
-	)
-	(wire
-		(pts
 			(xy 78.74 26.67) (xy 90.17 26.67)
 		)
 		(stroke
@@ -4306,6 +4429,26 @@
 			(type default)
 		)
 		(uuid "add47367-7fa4-46aa-b135-f3353f555934")
+	)
+	(wire
+		(pts
+			(xy 137.16 88.9) (xy 134.62 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ae9a3592-dcb3-430f-bb45-6e1c0f1bea86")
+	)
+	(wire
+		(pts
+			(xy 153.67 66.04) (xy 153.67 54.61)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b0b6c187-4060-42ec-ad20-8fc4b6ef7af0")
 	)
 	(wire
 		(pts
@@ -4329,7 +4472,7 @@
 	)
 	(wire
 		(pts
-			(xy 148.59 91.44) (xy 172.72 91.44)
+			(xy 148.59 91.44) (xy 154.94 91.44)
 		)
 		(stroke
 			(width 0)
@@ -4339,7 +4482,7 @@
 	)
 	(wire
 		(pts
-			(xy 157.48 124.46) (xy 158.75 124.46)
+			(xy 157.48 124.46) (xy 179.07 124.46)
 		)
 		(stroke
 			(width 0)
@@ -4479,6 +4622,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 91.44) (xy 172.72 91.44)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9ce8e55-5d6b-4f62-b08f-586564362750")
+	)
+	(wire
+		(pts
 			(xy 205.74 91.44) (xy 208.28 91.44)
 		)
 		(stroke
@@ -4486,6 +4639,16 @@
 			(type default)
 		)
 		(uuid "da2a1e85-e224-4d2f-b631-9fd112e55364")
+	)
+	(wire
+		(pts
+			(xy 138.43 66.04) (xy 153.67 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dddaa2f4-46c7-4508-b26f-f77171040c1a")
 	)
 	(wire
 		(pts
@@ -4499,6 +4662,16 @@
 	)
 	(wire
 		(pts
+			(xy 165.1 129.54) (xy 161.29 129.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1409208-b7eb-49e7-8177-091f84457c49")
+	)
+	(wire
+		(pts
 			(xy 222.25 91.44) (xy 220.98 91.44)
 		)
 		(stroke
@@ -4506,16 +4679,6 @@
 			(type default)
 		)
 		(uuid "e6177056-7c00-4702-9cd9-ab9f618dbe69")
-	)
-	(wire
-		(pts
-			(xy 173.99 53.34) (xy 165.1 53.34)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "e6c572f4-7f26-4a46-8ef8-c5130fff046e")
 	)
 	(wire
 		(pts
@@ -4559,6 +4722,16 @@
 	)
 	(wire
 		(pts
+			(xy 154.94 91.44) (xy 154.94 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ef8077b7-a378-4be3-bce9-24739a05389c")
+	)
+	(wire
+		(pts
 			(xy 195.58 134.62) (xy 199.39 134.62)
 		)
 		(stroke
@@ -4566,16 +4739,6 @@
 			(type default)
 		)
 		(uuid "f34bd0b6-9adc-4a26-94cd-4e771515d377")
-	)
-	(wire
-		(pts
-			(xy 106.68 26.67) (xy 118.11 26.67)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f4efbf56-4ae1-49fa-8c43-e09427f1ab44")
 	)
 	(wire
 		(pts
@@ -4792,78 +4955,6 @@
 			(project "ALT6 TELEM CPLT EXT"
 				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
 					(reference "#PWR03")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2200301021:2200301021")
-		(at 151.13 31.75 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "20cbdb63-16d6-44e9-b2fa-c95e283411a4")
-		(property "Reference" "J3"
-			(at 157.48 21.5899 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "2200301021"
-			(at 157.48 24.1299 90)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "CONN_2200300000-SD_02_MOL"
-			(at 151.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200301021?display=pdf"
-			(at 151.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 151.13 31.75 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ee0997e9-0789-4d59-9044-530d95bcc400")
-		)
-		(pin "1"
-			(uuid "9dd98003-b679-4b30-9ca1-f87e0f420f55")
-		)
-		(instances
-			(project ""
-				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -5174,6 +5265,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 121.92 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "31355cb9-a00a-4079-b36b-ab04834ac1aa")
+		(property "Reference" "#PWR01"
+			(at 128.27 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 125.73 72.3899 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 121.92 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "97c75fd3-356f-49d7-81b2-1c0eae09953f")
+		)
+		(instances
+			(project ""
+				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
+					(reference "#PWR01")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 91.44 115.57 270)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5234,6 +5392,240 @@
 			(project "ALT6 TELEM CPLT EXT"
 				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2200291035:2200291035")
+		(at 222.25 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "407bb24c-d41d-4935-9d67-4deee7470670")
+		(property "Reference" "J2"
+			(at 236.22 90.1699 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2200291035"
+			(at 236.22 92.7099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_2200290000-SD_03_MOL"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200291035?display=pdf"
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 222.25 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "5548651e-5326-43cb-8006-e875e91416e4")
+		)
+		(pin "2"
+			(uuid "9f762ab6-2911-4385-a39b-c76fb2d07066")
+		)
+		(pin "1"
+			(uuid "9bc551c6-5ce3-49c7-991e-ac15eba9cdc7")
+		)
+		(instances
+			(project "ALT6 TELEM CPLT EXT"
+				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
+					(reference "J2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "CRCW060347R0FKEA:CRCW060347R0FKEA")
+		(at 147.32 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "40a256d2-66b7-4af9-9c0c-32aee9874ca3")
+		(property "Reference" "R3"
+			(at 147.32 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CRCW060347R0FKEA"
+			(at 147.32 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "CRCW060347R0FKEA:RESC1508X50N"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MF" "Vishay Dale"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Resistor;Thick Film;47 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Cut Tape | Vishay Dale CRCW060347R0FKEA"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1508 Vishay"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=snap"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW060347R0FKEA"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47504&manufacturer=Vishay Dale&part_name=CRCW060347R0FKEA&search_term=crcw060347r0fkea"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=eda"
+			(at 147.32 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "7d9d6df7-68ff-4334-8c91-e89ea8b6fed8")
+		)
+		(pin "1"
+			(uuid "e80b4fa6-efcc-400a-9304-cb9dfb65823f")
+		)
+		(instances
+			(project "ALT6 TELEM CPLT EXT"
+				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -5757,6 +6149,78 @@
 		)
 	)
 	(symbol
+		(lib_id "2200291025:2200291025")
+		(at 151.13 31.75 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "613f75d6-6c29-4df3-82bd-fea33512218d")
+		(property "Reference" "J3"
+			(at 157.48 21.5899 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "2200291025"
+			(at 157.48 24.1299 90)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" "CONN_2200290000-SD_02_MOL"
+			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200291025?display=pdf"
+			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 151.13 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6cdca09-5f75-49e4-b4db-5b620e7cfbb6")
+		)
+		(pin "2"
+			(uuid "24d1c869-cff3-49df-b115-7b5e0aa4e52b")
+		)
+		(instances
+			(project ""
+				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "ERJ-3EKF1001V:ERJ-3EKF1001V")
 		(at 90.17 48.26 0)
 		(unit 1)
@@ -5938,6 +6402,81 @@
 			(project "ALT6 TELEM CPLT EXT"
 				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "2200291035:2200291035")
+		(at 248.92 129.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "87defda3-c0b1-4779-b757-95c9e8a7eea6")
+		(property "Reference" "J5"
+			(at 262.89 130.8099 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2200291035"
+			(at 262.89 133.3499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_2200290000-SD_03_MOL"
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200291035?display=pdf"
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ba3d786f-f64f-4897-89d5-c3c2deccf90f")
+		)
+		(pin "2"
+			(uuid "9a41e532-adbd-4b20-9cdb-ea8f302e5334")
+		)
+		(pin "1"
+			(uuid "bc1e2fe8-4acf-40e7-93c7-01dd1dd2cc7c")
+		)
+		(instances
+			(project "ALT6 TELEM CPLT EXT"
+				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -6292,349 +6831,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2200301031:2200301031")
-		(at 248.92 129.54 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a797ea2a-1965-41d8-a469-81d81cb2cf0a")
-		(property "Reference" "J5"
-			(at 262.89 130.8099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2200301031"
-			(at 262.89 133.3499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2200301031:CONN_2200300000-SD_03_MOL"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "MICRO-ONE 2.0 RA ASSY THRHOLE 3C"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/2200301031/Molex/view-part/?ref=eda"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2200301031/Molex/view-part/?ref=snap"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "2200301031"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=16816160&manufacturer=Molex&part_name=2200301031&search_term=220030-1031"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "2200301031"
-			(at 248.92 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a37aebfe-c2e0-476e-a869-9cd471f5c6c1")
-		)
-		(pin "2"
-			(uuid "18d3704c-57b8-4629-a6e6-5135456d863d")
-		)
-		(pin "3"
-			(uuid "e568776a-9c02-4fd2-bd4e-d9a8da40e005")
-		)
-		(instances
-			(project "ALT6 TELEM CPLT EXT"
-				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
-					(reference "J5")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CRCW060347R0FKEA:CRCW060347R0FKEA")
-		(at 189.23 33.02 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a80d5081-6f51-4529-950b-f30e2533f0de")
-		(property "Reference" "R2"
-			(at 189.23 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CRCW060347R0FKEA"
-			(at 189.23 29.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CRCW060347R0FKEA:RESC1508X50N"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Dale"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Resistor;Thick Film;47 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Cut Tape | Vishay Dale CRCW060347R0FKEA"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1508 Vishay"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=snap"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CRCW060347R0FKEA"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47504&manufacturer=Vishay Dale&part_name=CRCW060347R0FKEA&search_term=crcw060347r0fkea"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=eda"
-			(at 189.23 33.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f16b670a-20e2-421e-98ad-8320a70b746d")
-		)
-		(pin "1"
-			(uuid "403fb0eb-8ad7-4939-8424-55713c13025c")
-		)
-		(instances
-			(project "ALT6 TELEM CPLT EXT"
-				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
-					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "VJ0603Y104KXXAC:VJ0603Y104KXXAC")
 		(at 180.34 77.47 180)
 		(unit 1)
@@ -6861,289 +7057,8 @@
 		)
 	)
 	(symbol
-		(lib_id "10TPE220ML:10TPE220ML")
-		(at 106.68 26.67 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "aa344041-1c12-4f7f-be59-ebd1d2101c8f")
-		(property "Reference" "C3"
-			(at 110.49 31.7499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10TPE220ML"
-			(at 110.49 34.2899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "16TDC150MYF"
-			(at 10.49 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://industrial.panasonic.com/cdbs/www-data/pdf/AAA8000/AAA8000C36.pdf"
-			(at -89.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Description" "Panasonic 220uF SMD Solid Polymer Tantalum Capacitor, 10 V dc +/-20%, POSCAP Series"
-			(at 106.68 26.67 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Height" ""
-			(at -289.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Part Number" "667-10TPE220ML"
-			(at -389.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/Panasonic/10TPE220ML?qs=OE1iw1LrrPE6JSiJ7pp4ww%3D%3D"
-			(at -489.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Name" "Panasonic"
-			(at -589.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(property "Manufacturer_Part_Number" "10TPE220ML"
-			(at -689.51 35.56 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "0309a970-332d-4973-896b-7b0372272b00")
-		)
-		(pin "1"
-			(uuid "7f05e701-b83e-4168-96d7-e143710c81b7")
-		)
-		(instances
-			(project ""
-				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
-					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CRCW060347R0FKEA:CRCW060347R0FKEA")
-		(at 142.24 83.82 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "abef711c-72e8-45c5-8dda-42379c77303b")
-		(property "Reference" "R3"
-			(at 142.24 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CRCW060347R0FKEA"
-			(at 142.24 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CRCW060347R0FKEA:RESC1508X50N"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Dale"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Resistor;Thick Film;47 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Cut Tape | Vishay Dale CRCW060347R0FKEA"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1508 Vishay"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=snap"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CRCW060347R0FKEA"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47504&manufacturer=Vishay Dale&part_name=CRCW060347R0FKEA&search_term=crcw060347r0fkea"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=eda"
-			(at 142.24 83.82 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e834b7bd-25e7-4a36-9930-0336187eb75d")
-		)
-		(pin "1"
-			(uuid "9a0925a3-c145-450b-ba00-cea39fde427e")
-		)
-		(instances
-			(project "ALT6 TELEM CPLT EXT"
-				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
-					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
-		(at 142.24 50.8 0)
+		(at 151.13 41.91 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7152,7 +7067,7 @@
 		(fields_autoplaced yes)
 		(uuid "ad0feffd-cb79-4b45-829a-95a066eefe14")
 		(property "Reference" "#PWR09"
-			(at 142.24 57.15 0)
+			(at 151.13 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7161,7 +7076,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 142.24 55.88 0)
+			(at 151.13 46.99 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7169,7 +7084,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 142.24 50.8 0)
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7178,7 +7093,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 142.24 50.8 0)
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7187,7 +7102,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 142.24 50.8 0)
+			(at 151.13 41.91 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7406,44 +7321,43 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 116.84 72.39 90)
+		(lib_id "CRCW060347R0FKEA:CRCW060347R0FKEA")
+		(at 179.07 54.61 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "c3e32980-173e-4e07-911b-6d1f0f743644")
-		(property "Reference" "#PWR01"
-			(at 123.19 72.39 0)
+		(uuid "c5909059-07a9-4f72-9791-2f1dfe27918f")
+		(property "Reference" "R2"
+			(at 179.07 48.26 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
-		(property "Value" "GND"
-			(at 120.65 72.3899 90)
+		(property "Value" "CRCW060347R0FKEA"
+			(at 179.07 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
 			)
 		)
-		(property "Footprint" ""
-			(at 116.84 72.39 0)
+		(property "Footprint" "CRCW060347R0FKEA:RESC1508X50N"
+			(at 179.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(justify bottom)
 				(hide yes)
 			)
 		)
 		(property "Datasheet" ""
-			(at 116.84 72.39 0)
+			(at 179.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7451,22 +7365,115 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 116.84 72.39 0)
+		(property "Description" ""
+			(at 179.07 54.61 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(hide yes)
 			)
+		)
+		(property "MF" "Vishay Dale"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Description_1" "Resistor;Thick Film;47 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Cut Tape | Vishay Dale CRCW060347R0FKEA"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1508 Vishay"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Price" "None"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=snap"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW060347R0FKEA"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47504&manufacturer=Vishay Dale&part_name=CRCW060347R0FKEA&search_term=crcw060347r0fkea"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Availability" "In Stock"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=eda"
+			(at 179.07 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "8cbda254-75e7-4a25-af3d-1df85ddb0696")
 		)
 		(pin "1"
-			(uuid "c755cf58-2698-40cc-91bc-485e36afcb71")
+			(uuid "d0a48eef-66ac-4d6e-ba77-b36a02361102")
 		)
 		(instances
-			(project ""
+			(project "ALT6 TELEM CPLT EXT"
 				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
-					(reference "#PWR01")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -7632,35 +7639,33 @@
 		)
 	)
 	(symbol
-		(lib_id "2200301031:2200301031")
-		(at 222.25 88.9 0)
+		(lib_id "CRCW060347R0FKEA:CRCW060347R0FKEA")
+		(at 175.26 129.54 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "ca6840ab-2b25-4826-940b-7f15025075a4")
-		(property "Reference" "J2"
-			(at 236.22 90.1699 0)
+		(uuid "d24d090d-f4f8-4c6f-a929-9b2ee722a639")
+		(property "Reference" "R6"
+			(at 175.26 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Value" "2200301031"
-			(at 236.22 92.7099 0)
+		(property "Value" "CRCW060347R0FKEA"
+			(at 175.26 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
 			)
 		)
-		(property "Footprint" "2200301031:CONN_2200300000-SD_03_MOL"
-			(at 222.25 88.9 0)
+		(property "Footprint" "CRCW060347R0FKEA:RESC1508X50N"
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7670,7 +7675,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 222.25 88.9 0)
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7679,7 +7684,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 222.25 88.9 0)
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7687,18 +7692,8 @@
 				(hide yes)
 			)
 		)
-		(property "MF" "Molex"
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "MICRO-ONE 2.0 RA ASSY THRHOLE 3C"
-			(at 222.25 88.9 0)
+		(property "MF" "Vishay Dale"
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7707,8 +7702,18 @@
 				(hide yes)
 			)
 		)
-		(property "Package" "None"
-			(at 222.25 88.9 0)
+		(property "Description_1" "Resistor;Thick Film;47 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Cut Tape | Vishay Dale CRCW060347R0FKEA"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Package" "1508 Vishay"
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7718,7 +7723,7 @@
 			)
 		)
 		(property "Price" "None"
-			(at 222.25 88.9 0)
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7727,8 +7732,28 @@
 				(hide yes)
 			)
 		)
-		(property "Check_prices" "https://www.snapeda.com/parts/2200301031/Molex/view-part/?ref=eda"
-			(at 222.25 88.9 0)
+		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=snap"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MP" "CRCW060347R0FKEA"
+			(at 175.26 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47504&manufacturer=Vishay Dale&part_name=CRCW060347R0FKEA&search_term=crcw060347r0fkea"
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7738,7 +7763,7 @@
 			)
 		)
 		(property "Availability" "In Stock"
-			(at 222.25 88.9 0)
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7747,8 +7772,8 @@
 				(hide yes)
 			)
 		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2200301031/Molex/view-part/?ref=snap"
-			(at 222.25 88.9 0)
+		(property "Check_prices" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=eda"
+			(at 175.26 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7756,60 +7781,17 @@
 				(justify bottom)
 				(hide yes)
 			)
-		)
-		(property "MP" "2200301031"
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=16816160&manufacturer=Molex&part_name=2200301031&search_term=220030-1031"
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "2200301031"
-			(at 222.25 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f0594c80-ddaf-4d67-894b-0137fc73c620")
 		)
 		(pin "2"
-			(uuid "b9c1e60f-a17b-452a-8911-4c8817fc0b51")
+			(uuid "4e0faab5-40e4-4381-b416-084308ff8714")
 		)
-		(pin "3"
-			(uuid "382e30f7-8502-4330-9c34-b8f7f3377e9c")
+		(pin "1"
+			(uuid "0ae5a68b-4547-4396-9835-65e17968679e")
 		)
 		(instances
 			(project "ALT6 TELEM CPLT EXT"
 				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
-					(reference "J2")
+					(reference "R6")
 					(unit 1)
 				)
 			)
@@ -7930,6 +7912,117 @@
 			(project ""
 				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
 					(reference "F1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "10SVPE220M:10SVPE220M")
+		(at 106.68 34.29 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "d7d5e927-255e-4853-b4c4-eabdd4e46e63")
+		(property "Reference" "C5"
+			(at 110.49 33.7165 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10SVPE220M"
+			(at 110.49 36.2565 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "10SVPE220M:CAP_10SVPE220M"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "PARTREV" "28-Jun-19"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MANUFACTURER" "Panasonic"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "MAXIMUM_PACKAGE_HEIGHT" "5.9mm"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "STANDARD" "Manufacturer Recommendations"
+			(at 106.68 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify bottom)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7e467048-1add-44d2-b6de-4e66faa44479")
+		)
+		(pin "2"
+			(uuid "2bdd10f5-aff6-48d8-8c07-c59a14b3d131")
+		)
+		(instances
+			(project ""
+				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
+					(reference "C5")
 					(unit 1)
 				)
 			)
@@ -8190,6 +8283,81 @@
 		)
 	)
 	(symbol
+		(lib_id "2200291035:2200291035")
+		(at 248.92 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e6cfb3f8-c516-4cfb-8322-bd94197e8abc")
+		(property "Reference" "J1"
+			(at 262.89 55.8799 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2200291035"
+			(at 262.89 58.4199 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "CONN_2200290000-SD_03_MOL"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.molex.com/en-us/products/part-detail-pdf/2200291035?display=pdf"
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 248.92 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6b17dd58-e98e-4b97-8243-7b3cb388ea0d")
+		)
+		(pin "2"
+			(uuid "0a5b07c4-9a3d-4330-bac3-9a634980d2f9")
+		)
+		(pin "1"
+			(uuid "350bc5ce-6bdc-4cbe-969f-32360b7d20cd")
+		)
+		(instances
+			(project ""
+				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
+					(reference "J1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "CRCW060347R0FKEA:CRCW060347R0FKEA")
 		(at 162.56 83.82 0)
 		(unit 1)
@@ -8343,349 +8511,6 @@
 			(project "ALT6 TELEM CPLT EXT"
 				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
 					(reference "R4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "CRCW060347R0FKEA:CRCW060347R0FKEA")
-		(at 168.91 124.46 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e99c7e29-4142-4de0-bf30-89576606bfe1")
-		(property "Reference" "R6"
-			(at 168.91 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CRCW060347R0FKEA"
-			(at 168.91 120.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "CRCW060347R0FKEA:RESC1508X50N"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Vishay Dale"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "Resistor;Thick Film;47 Ohms;0.1 W;1%;SMT;0603;TCR 37 ppm/DegC;Cut Tape | Vishay Dale CRCW060347R0FKEA"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "1508 Vishay"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=snap"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "CRCW060347R0FKEA"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=47504&manufacturer=Vishay Dale&part_name=CRCW060347R0FKEA&search_term=crcw060347r0fkea"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/CRCW060347R0FKEA/Vishay+Dale/view-part/?ref=eda"
-			(at 168.91 124.46 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "b8f1433c-e1dc-4e17-8859-c730b3e76ea0")
-		)
-		(pin "1"
-			(uuid "1c409f72-9c26-44cb-b454-15a23ebbc1d6")
-		)
-		(instances
-			(project "ALT6 TELEM CPLT EXT"
-				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
-					(reference "R6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2200301031:2200301031")
-		(at 248.92 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "efdec5d6-08d7-4b00-b9eb-3edf9814fab5")
-		(property "Reference" "J1"
-			(at 262.89 55.8799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2200301031"
-			(at 262.89 58.4199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "2200301031:CONN_2200300000-SD_03_MOL"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "MF" "Molex"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Description_1" "MICRO-ONE 2.0 RA ASSY THRHOLE 3C"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Package" "None"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Price" "None"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Check_prices" "https://www.snapeda.com/parts/2200301031/Molex/view-part/?ref=eda"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Availability" "In Stock"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "SnapEDA_Link" "https://www.snapeda.com/parts/2200301031/Molex/view-part/?ref=snap"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MP" "2200301031"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "Purchase-URL" "https://www.snapeda.com/api/url_track_click_mouser/?unipart_id=16816160&manufacturer=Molex&part_name=2200301031&search_term=220030-1031"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MFR_NAME" "Molex Connector Corporation"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(property "MANUFACTURER_PART_NUMBER" "2200301031"
-			(at 248.92 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify bottom)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0e44913d-da5d-4903-af06-ac4f505d5e10")
-		)
-		(pin "2"
-			(uuid "4d947e61-f4f8-4d4e-b665-f2955cd86416")
-		)
-		(pin "3"
-			(uuid "10f30066-f433-4065-991f-53d3266a89fa")
-		)
-		(instances
-			(project "ALT6 TELEM CPLT EXT"
-				(path "/0757714a-2ed0-4f92-8955-8fe0c42aa0f1"
-					(reference "J1")
 					(unit 1)
 				)
 			)
