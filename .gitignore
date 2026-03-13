@@ -27,3 +27,12 @@ fp-info-cache
 # Exported BOM files
 *.xml
 *.csv
+*.dwl2
+*.dxf
+*.rar
+*.gsheet
+*.gbr
+*.gbr
+*.dwl
+*.rar
+*.drl
