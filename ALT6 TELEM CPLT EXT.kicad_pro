@@ -536,7 +536,7 @@
       "gencad": "",
       "idf": "",
       "netlist": "",
-      "plot": "ALT6 TELEM CPLT EXT FF/",
+      "plot": "./",
       "pos_files": "ALT6 TELEM CPLT EXT FF/",
       "specctra_dsn": "",
       "step": "ALT6 TELEM CPLT EXT.step",
